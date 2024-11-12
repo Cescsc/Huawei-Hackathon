@@ -128,7 +128,7 @@ def full_read(directory, scene):
 
         H = H.astype(np.complex64)  # trunc to complex64 to reduce storage
 
-        csi_file = directory + '/' + f[:-4] + '.npy'
+        csi_file = directory + '/' + '..' + '/' + 'npy_files' + '/' + f[:-4] + '.npy'
         np.save(csi_file, H)  # save file as binary npy
         # H = np.load(csi_file) # if saved in npy, you can load npy file instead of txt
 
