@@ -1,4 +1,5 @@
 # Huawei Hackaton 2024
+# Daniel Purroy, Francesc Purroy
 
 import os
 import time
@@ -8,21 +9,7 @@ import itertools
 
 # This function calculates the positions of all channels, should be implemented by the participants
 def calcLoc(H, anch_pos, bs_pos, tol_samp_num, anch_samp_num, port_num, ant_num, sc_num):
-    '''
-    H: channel data
-    anch_pos: anchor ID and its coordinates
-    bs_pos: coordinate of the base station
-    tol_samp_num: total number of channel data points
-    anch_samp_num: total number of anchor points
-    port_num: number of SRS Ports (number of antennas for the UE)
-    ant_num: number of antennas for the base station
-    sc_num: number of subcarriers
-    '''
-    #########The following should be implemented by the participants################
-    #########In this example, we use zeros for the predictions##########
-    loc_result = np.zeros([tol_samp_num, 2], 'float')
-    return loc_result
-
+    pass
 
 def read_cfg_file(file_path):
     """Reads the configuration file"""
