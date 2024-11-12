@@ -1,4 +1,4 @@
-
+# Huawei Hackaton 2024
 
 
 def readCSI():
@@ -7,6 +7,3 @@ def readCSI():
 
 def noise_calibration():
     pass
-
-
-
